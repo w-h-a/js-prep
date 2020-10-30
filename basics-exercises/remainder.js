@@ -1,5 +1,5 @@
-// Output ones place, tens place, hundreds place, and thousands place
-let x = 49365; // This is the input number
+// Output ones place, tens place, hundreds place, thousands place, and so on...
+let x = 200221; // This is the input number
 let y = "1" // This is the initial place
 
 /*
