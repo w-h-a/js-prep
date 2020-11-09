@@ -1,3 +1,5 @@
+// Only works for array with arrays but not arrays with arrays with arrays.
+
 function search(inputArrayParam, inputSearchParam) {
   if (inputSearchParam === undefined) return "I am error."
   for (let i = 0; i < inputArrayParam.length; i += 1) {
@@ -37,7 +39,8 @@ function getParam(typeParam) {
       break;
     case 'boolean':
       let booleanInput = getSearchParam("Enter boolean: ");
-      return Boolean(booleanInput);
+      let userBool = (booleanInput === 'true');
+      return Boolean(userBool);
       break;
     case 'null':
       return null;
