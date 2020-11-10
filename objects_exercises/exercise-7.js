@@ -5,6 +5,7 @@
 **The function body should be such that it is permissible to
 **omit the array of keys argument when calling the function. In that
 **case, the function should copy all the keys of the object.
+**Do not mutate objToCopy in the function.
 */
 
 let objToCopy = {
